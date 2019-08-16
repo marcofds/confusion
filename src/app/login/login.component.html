@@ -6,6 +6,7 @@
 
 <p>{{ user | json }}</p>
 
+<!--we declare a variable #loginForm that enable us to track the form state -->
 <form novalidate #loginForm="ngForm" (ngSubmit)="onSubmit()">
 
   <mat-dialog-content>
